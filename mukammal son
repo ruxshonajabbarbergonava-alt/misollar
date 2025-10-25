@@ -1,0 +1,10 @@
+int a;
+cin>>a;
+int s=0;
+for(int i=1;i<=0;i++){
+if(a%i==0)
+s+=i;
+if(s==a){
+cout<<"true"<<endl;}
+else{
+cout<<"false"<<endl;}
