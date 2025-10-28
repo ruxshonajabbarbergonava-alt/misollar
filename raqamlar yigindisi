@@ -1,0 +1,14 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    int s=0;
+    for(int i = a;i !=a;i = i/10){
+        s=s+i%10;
+    }
+    cout<<s;
+    return 0;
+}
